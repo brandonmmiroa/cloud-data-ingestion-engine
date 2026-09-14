@@ -1,6 +1,7 @@
 # Resilient Cloud Data Ingestion & Quality Engine
 
-> **pipeline using Pydantic V2 validation, resilient HTTP retries, dead-letter queue (DLQ) quarantine routing, and Supabase PostgreSQL schema isolation.**This pipeline is a production-grade, automated data ingestion and quality engine designed to reliably pull data from an external API, validate it against strict data quality rules, route corrupted records to a quarantine store, and load clean data into a multi-schema PostgreSQL data warehouse in Supabase**
+> **pipeline using Pydantic V2 validation, resilient HTTP retries, dead-letter queue (DLQ) quarantine routing, and Supabase PostgreSQL schema isolation.
+> **This pipeline is a production-grade, automated data ingestion and quality engine designed to reliably pull data from an external API, validate it against strict data quality rules, route corrupted records to a quarantine store, and load clean data into a multi-schema PostgreSQL data warehouse in Supabase
 
 ---
 
