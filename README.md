@@ -47,8 +47,6 @@
 │   └── workflows/
 │       └── pipeline.yml          # Automated hourly execution via GitHub Actions
 ├── sql/
-│   ├── 01_schema_setup.sql      # DDL for staging, quarantine, & analytics schemas
-│   └── 02_analytics_mart.sql     # SQL transformations populating analytics.fact_posts
 │   ├── 01_star_schema.sql        # Fact & Dimension DDLs + Date Dimension Generator
 │   └── 02_bi_views.sql           # Aggregated BI views for Tableau/Power BI
 ├── dashboards/
